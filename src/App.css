@@ -24,8 +24,8 @@ body {
 .calculator__button {
   width: 5rem;
   height: 5rem;
-  border: 1px solid black;
-  background-color: #f0f0f0;
+  border: 1px solid hsla(0, 0%, 0%, 0.863);
+  background-color: hsl(0, 0%, 94%);
   font-size: large;
 }
 
