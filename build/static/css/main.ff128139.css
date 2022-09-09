@@ -1,2 +1,0 @@
-*{box-sizing:border-box;margin:0;padding:0}body{align-items:center;background:#fafafa;display:flex;font-family:sans-serif;height:100vh;justify-content:center}.container{display:grid;grid-template-columns:repeat(4,1fr);place-content:center}.screen{background:#e0e0e0;font-size:1.5rem;grid-column:1/-1;padding:.7em .5rem;text-align:right}.btn{border:1px solid #f1edec;color:#000;padding:1em 1.5em}.btn,.operator{text-align:center}.operator{background:orange}.span-2{grid-column:span 2}
-/*# sourceMappingURL=main.ff128139.css.map*/

@@ -7,6 +7,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   width: 200px;
+  gap: 2px;
 }
 
 .screen {
@@ -23,8 +24,9 @@
   color: black;
   padding: 1em 1.5em;
   text-align: center;
-  border: 1px solid rgb(241, 237, 236);
+  border: 1px solid rgb(156, 155, 155);
   transition: 0.5s ease;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -32,12 +34,12 @@
 }
 
 .btn:active {
-  background: #eeebeb;
+  background: #a5a5a5;
   transform: scale(0.9);
 }
 
 .operator {
-  background: orange;
+  background: rgb(255, 115, 0);
   text-align: center;
 }
 
