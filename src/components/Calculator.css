@@ -7,7 +7,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   width: 200px;
-  gap: 4px;
+  gap: 2px;
 }
 
 .screen {
@@ -34,12 +34,12 @@
 }
 
 .btn:active {
-  background: #eeebeb;
+  background: #a5a5a5;
   transform: scale(0.9);
 }
 
 .operator {
-  background: orange;
+  background: rgb(255, 115, 0);
   text-align: center;
 }
 
