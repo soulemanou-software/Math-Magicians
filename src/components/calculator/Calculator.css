@@ -1,13 +1,13 @@
 .container {
   display: grid;
-  place-content: center;
   grid-template-columns: repeat(4, 1fr);
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   width: 200px;
-  gap: 2px;
+  height: max-content;
+  gap: 4px;
 }
 
 .screen {
@@ -24,7 +24,7 @@
   color: black;
   padding: 1em 1.5em;
   text-align: center;
-  border: 1px solid rgb(156, 155, 155);
+  border: 1px solid rgb(241, 237, 236);
   transition: 0.5s ease;
   cursor: pointer;
 }
@@ -34,12 +34,12 @@
 }
 
 .btn:active {
-  background: #a5a5a5;
+  background: #eeebeb;
   transform: scale(0.9);
 }
 
 .operator {
-  background: rgb(255, 115, 0);
+  background: rgba(255, 102, 0, 0.986);
   text-align: center;
 }
 
